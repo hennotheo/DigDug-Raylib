@@ -1,9 +1,17 @@
-﻿using Raylib_cs;
+﻿using System.Numerics;
+using Raylib_cs;
 
 namespace DigDug;
 
 public class Game
 {
+    private Player _player;
+
+    public Game()
+    {
+        _player = new Player();
+    }
+
     public void StartGame()
     {
         
@@ -11,12 +19,12 @@ public class Game
 
     public void UpdateGame()
     {
-        
+        _player.Update();
     }
 
     public void RecordDrawing()
     {
-        Raylib.DrawRectangle(0,0,50,50,Color.White);
+        _player.Draw();
     }
 
     public void EndGame()
