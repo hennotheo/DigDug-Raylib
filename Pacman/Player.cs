@@ -1,7 +1,7 @@
 ﻿using System.Numerics;
 using Raylib_cs;
 
-namespace DigDug;
+namespace Pacman;
 
 public class Player
 {

@@ -1,4 +1,4 @@
-﻿using DigDug;
+﻿using Pacman;
 using Raylib_cs;
 
 Raylib.InitWindow(840,480, "Pacman");
