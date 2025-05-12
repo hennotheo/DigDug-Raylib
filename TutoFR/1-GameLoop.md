@@ -1,4 +1,4 @@
-# DigDug Raylib c#
+# Pacman Raylib c#
 
 ## 1 - Game Loop
 
@@ -7,10 +7,10 @@
 Aller dans Program.cs, puis écrire cette ligne :
 
 ``` csharp
-Raylib.InitWindow(840,480, "Dig Dug");
+Raylib.InitWindow(840,480, "Pacman");
 ```
 
-On créer ici une Window de 840 de large et 480 de haut ayant comme nom "Dig Dug".
+On créer ici une Window de 840 de large et 480 de haut ayant comme nom "Pacman".
 
 Vous pouvez ajouter cette ligne afin de fixer les fps à 60
 ``` csharp

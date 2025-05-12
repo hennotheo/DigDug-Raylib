@@ -1,4 +1,4 @@
-# DigDug Raylib c#
+# Pacman Raylib c#
 
 ## 0 - Installation
 
@@ -18,24 +18,24 @@ Créer un Dossier, puis ouvrir un terminal de commande dedans.
 
 **Créer la solution :**
 ``` Bash
-dotnet new sln --name DigDug
+dotnet new sln --name Pacman
 ```
 
 **Créer le projet :**
 
 Créer un projet console
 ``` Bash
-dotnet new console --output DigDug
+dotnet new console --output Pacman
 ```
 
 Ajouter le projet à la solution
 ``` Bash
-dotnet sln add DigDug
+dotnet sln add Pacman
 ```
 
 Ajouter Raylib au projet
 ``` Bash
-dotnet add DigDug package Raylib-cs
+dotnet add Pacman package Raylib-cs
 ```
 
 #### Via Rider ou Visual Studio

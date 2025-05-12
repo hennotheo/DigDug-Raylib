@@ -1,7 +1,7 @@
 ﻿using DigDug;
 using Raylib_cs;
 
-Raylib.InitWindow(840,480, "Dig Dug");
+Raylib.InitWindow(840,480, "Pacman");
 Raylib.SetTargetFPS(60);
 
 Game game = new Game();

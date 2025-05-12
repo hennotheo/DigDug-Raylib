@@ -1,4 +1,4 @@
-# DigDug Raylib c#
+# Pacman Raylib c#
 
 ## 2 - Ajouter un Joueur
 
